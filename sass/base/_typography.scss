@@ -1,0 +1,32 @@
+.h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  font-family: $varela;
+
+  color: $color-aqua-4;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: $varela;
+
+  color: $color-aqua-4;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  font-size: $default-font-size;
+  font-family: $poppins;
+  text-align: justify;
+
+  &--white {
+    color: $color-light-1;
+    font-size: $secondary-font-size;
+    font-family: $poppins;
+    text-align: justify;
+  }
+}

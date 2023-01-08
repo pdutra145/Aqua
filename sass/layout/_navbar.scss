@@ -1,0 +1,49 @@
+.navbar {
+  z-index: 1000;
+  &__logo {
+    transform: translateX(1rem);
+    width: 15rem;
+    height: 10rem;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__caption {
+    display: inline-block;
+    color: $color-light-1;
+    font-size: 2rem;
+  }
+
+  &__button-box {
+    position: relative;
+  }
+
+  &__button {
+    &:link,
+    &:visited {
+      position: absolute;
+      top: -1rem;
+      right: 5rem;
+
+      border-radius: 5rem;
+      border: 3px solid $color-light-1;
+
+      color: $color-light-1;
+      font-family: $ubuntu;
+      font-weight: 400;
+
+      padding: 1rem;
+      text-decoration: none;
+      text-align: center;
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      border: 3px solid $color-light-1;
+      box-shadow: $shadow-1;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.intro {
+  margin: 20rem 0;
+
+  &__content {
+    text-align: justify;
+  }
+
+  &__image-shape {
+    width: 25rem;
+    margin-left: 10rem;
+  }
+
+  &__image {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.7);
+      box-shadow: $shadow-1;
+    }
+  }
+}
+
+.section-intructors {
+  background-image: linear-gradient(
+    15deg,
+    rgba(#13547a, 0.8) 0%,
+    rgba(#80d0c7, 0.8) 100%
+  );
+  clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%);
+
+  height: 80rem;
+}
+
+.instructors {
+  &__image-shape {
+    width: 50rem;
+  }
+
+  &__image {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.9);
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: $shadow-1;
+    }
+  }
+
+  &__content {
+    position: relative;
+    margin-left: 5rem;
+  }
+
+  &__button {
+    position: absolute;
+    bottom: -5rem;
+    left: 0;
+  }
+}
+
+.section-plans {
+  height: 80rem;
+}
+
+.plans {
+  &__image {
+    width: 100%;
+    height: 50rem;
+  }
+
+  &__card {
+    z-index: 1500;
+    width: 35rem;
+    margin: 0rem 5rem;
+
+    &-body {
+      background-image: linear-gradient(
+        15deg,
+        rgba(#13547a, 0.8) 0%,
+        rgba(#80d0c7, 0.8) 100%
+      );
+      color: $color-light-1;
+      padding: 2rem;
+    }
+  }
+}

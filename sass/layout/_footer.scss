@@ -1,0 +1,27 @@
+.footer {
+  background-color: $color-aqua-4;
+  height: 50rem;
+  margin-top: 25rem;
+  z-index: 2000;
+
+  &__logo {
+    width: 25rem;
+    padding-top: 5rem;
+  }
+
+  &__content {
+  }
+
+  &__copyright {
+    color: $color-light-3;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $poppins;
+    padding-top: 10rem;
+  }
+
+  &__contact {
+    color: $color-aqua-5;
+    font-size: $default-font-size;
+  }
+}
