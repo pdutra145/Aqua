@@ -1,5 +1,4 @@
 # Aqua
-<br>
 I recently created a project that focused on utilizing front-end web development tools. 
 Using Bootstrap, Sass, CSS, HTML, and BEM architeture, I was able to create a modern and intuitive website.
 Moreover, I optimized the website's performance with a combination of custom CSS and Sass and 
@@ -21,6 +20,11 @@ as well as generate a live server*
 <br>
 <br>
 <br>
+
+<video controls autoplay>
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ![image](https://user-images.githubusercontent.com/93670432/211947981-80196e75-05ab-4907-8e43-2837829851dd.png)
 
