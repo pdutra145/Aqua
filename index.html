@@ -25,7 +25,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Mini Web Project</title>
+    <!-- FAVICON ICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./imgs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon-16x16.png">
+    <link rel="manifest" href="./imgs/site.webmanifest">
+
+    <title>Aqua - Mini Web Project</title>
 </head>
 
 <body>
@@ -36,7 +42,7 @@
                 <figcaption class="navbar__caption ps-2">Aqua</figcaption>
             </figure>
             <div class="navbar__button-box col-3 pe-5">
-                <a href="#" class="navbar__button">Contact Us</a>
+                <a href="#footer__contact" class="navbar__button">Contact Us</a>
             </div>
         </nav>
         <header class="header">
@@ -82,7 +88,8 @@
     <section class="section-plans container d-flex align-items-center">
         <div class="plans row justify-content-center align-items-center">
             <div class="card plans__card col gx-0">
-                <img src="./imgs/diving-3.jpg" class="card-img-top plans__image" alt="Basic Plan Image">
+                <a href="#" class="plans__card-button btn">Buy</a>
+                <img src="./imgs/diving-3.jpg" class="card-img-top plans__card-image" alt="Basic Plan Image">
                 <div class="card-body plans__card-body">
                     <h3 class="card-title h2">Basic Plan</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -90,15 +97,17 @@
                 </div>
             </div>
             <div class="card  plans__card col gx-0">
-                <img src="./imgs/diving-4.jpg" class="card-img-top plans__image" alt="Premium Plan Image">
+                <a href="#" class="plans__card-button btn">Buy</a>
+                <img src="./imgs/diving-4.jpg" class="card-img-top plans__card-image" alt="Premium Plan Image">
                 <div class="card-body plans__card-body">
                     <h3 class="card-title h2">Premium Plan</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                 </div>
             </div>
-            <div class="card  plans__card col gx-0">
-                <img src="./imgs/diving-5.jpg" class="card-img-top plans__image" alt="Master Plan Image">
+            <div class="card plans__card col gx-0">
+                <a href="#" class="plans__card-button btn">Buy</a>
+                <img src="./imgs/diving-5.jpg" class="card-img-top plans__card-image" alt="Master Plan Image">
                 <div class="card-body plans__card-body">
                     <h3 class="card-title h2">Master Plan</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -112,14 +121,14 @@
             <div class="footer__logo row">
                 <img src="./imgs/logo.png" alt="Footer Logo" class="footer__image">
             </div>
-            <div class="footer__description row justify-content-between align-items-center">
+            <div class="footer__description row justify-content-center align-items-center">
                 <p class="footer__copyright">Designed By Pedro Dutra. You are not authorized to use this for commercial
                     purposes.</p>
-                <div class="footer__contact row justify-content-center align-items-center">
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-linkedin"></i>
+                <div class="footer__contact row justify-content-center align-items-center w-25" id="footer__contact">
+                    <i class="bi bi-twitter col"></i>
+                    <i class="bi bi-facebook col"></i>
+                    <i class="bi bi-instagram col"></i>
+                    <i class="bi bi-linkedin col"></i>
                 </div>
             </div>
         </div>
