@@ -8,6 +8,11 @@ To top it off, I incorporated a range of interactive components, so users could 
 
 <br>
 <br>
+
+*I added some build scripts to the package.json*
+
+<br>
+<br>
 <br>
 
 ![image](https://user-images.githubusercontent.com/93670432/211947981-80196e75-05ab-4907-8e43-2837829851dd.png)
