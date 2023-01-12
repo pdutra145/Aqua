@@ -1,7 +1,7 @@
-<h1>Aqua</h1>
+# Aqua
 <br>
 I recently created a project that focused on utilizing front-end web development tools. 
-Using Bootstrap, Sass, CSS, and HTML, I was able to create a modern and intuitive website.
+Using Bootstrap, Sass, CSS, HTML, and BEM architeture, I was able to create a modern and intuitive website.
 Moreover, I optimized the website's performance with a combination of custom CSS and Sass and 
 employed a clean and modern design aesthetic that was both visually pleasing and user-friendly. 
 To top it off, I incorporated a range of interactive components, so users could have a more engaging experience.
@@ -9,8 +9,15 @@ To top it off, I incorporated a range of interactive components, so users could 
 <br>
 <br>
 
-*I added some build scripts to the package.json*
+---
+## Initializing the project<br>
 
+1. `npm run build:css`<br>
+*This command will generate the style.css required to style the html*<br>
+2. `npm start`<br>
+*This command will watch and update changes written in the Sass files to the style.css
+as well as generate a live server*
+---
 <br>
 <br>
 <br>
